@@ -101,18 +101,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-if loves_to_play && loves_treats
-puts "On Mondays"
+puts loves_to_play && loves_treats
 # Determine if the dog loves to play and loves the dog park
-elsif loves_to_play && loves_dog_park
-puts "On Tuesdays"
+puts loves_to_play && loves_dog_park
 # Determine if the dog loves to play or loves the dog park
-elsif loves_to_play || loves_dog_park
-puts "On Wednesdays"
+puts loves_to_play || loves_dog_park
 # Determine if the dog loves to play and is a puppy
-else loves_to_play && age <= 1
-  puts "Everyday!!!"
-end
+puts loves_to_play && age <= 1
+
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER:Final line of code evaluated to true becasue I included the age of 1 in
+# the comparison, but if I would have had it just compare as "less than" it
+# would have been false as both statements are not true
