@@ -101,16 +101,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-loves_to_play && loves_treats
-
+if loves_to_play && loves_treats
+puts "On Mondays"
 # Determine if the dog loves to play and loves the dog park
-loves_to_play && loves_dog_park
-
+elsif loves_to_play && loves_dog_park
+puts "On Tuesdays"
 # Determine if the dog loves to play or loves the dog park
-loves_to_play || loves_dog_park
-
+elsif loves_to_play || loves_dog_park
+puts "On Wednesdays"
 # Determine if the dog loves to play and is a puppy
-loves_to_play && age <= 1
+elsif loves_to_play && age <= 1
+  puts "Everyday!!!"
+end
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
