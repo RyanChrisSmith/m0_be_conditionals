@@ -44,8 +44,11 @@ bear_clothing
 "scarf"
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
 Detemined by the value of the variable bear_choice, we are using comparison if, elsif, and else conditional
-statements to determine the output of 
+statements to determine the output once variable bear_choice is determined.
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
-# 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+"You run as fast as you can into the next room. Its full of snakes!"
+# 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2,
+what will be the final outcome be? "You tell the bear the hat is too small and it starts to cry!"
 # 7. What is your favorite ending?
+"You stay with the bear and become its best friend"
 =end
