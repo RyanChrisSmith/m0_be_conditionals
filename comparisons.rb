@@ -60,7 +60,7 @@ puts "Is the number of students less than or equal to 21?", number_students <= 2
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: The output will show whether the integer 4 is less than 9 using logical operators = True or False.
+#YOU DO: The output will show whether the integer 4 is less than 9 using logical operators. Should be true.
 
 books = 3
 puts 4 < books
@@ -71,14 +71,14 @@ friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: The friends variable has been assigned integer 6 and the siblings variable has been assigned the
-# integer 2. The output will answer whether the variable friends is larger than siblings. Should be true. 
+# integer 2. The output will answer whether the variable friends is larger than siblings. Should be true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Variable attendess has been assigned integer 9 and variable meals has been assigned 8. The output
 # will show whether variable attendees is not equal to variable meals via the logical operator or not equal.
-# should be false
+# should be true
 
 
 #-------------------
