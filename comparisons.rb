@@ -110,7 +110,7 @@ puts "On Tuesdays"
 elsif loves_to_play || loves_dog_park
 puts "On Wednesdays"
 # Determine if the dog loves to play and is a puppy
-elsif loves_to_play && age <= 1
+else loves_to_play && age <= 1
   puts "Everyday!!!"
 end
 
